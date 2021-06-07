@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.7.10",
+  "package": "com.focamacho.myserveriscompatible.mixin",
+  "refmap": "mixins.myserveriscompatible.refmap.json",
+  "target": "@env(DEFAULT)",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "MixinFMLClientHandler"
+  ]
+}

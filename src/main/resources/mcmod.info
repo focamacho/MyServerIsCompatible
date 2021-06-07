@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "MyServerIsCompatible",
+    "name": "MyServerIsCompatible",
+    "description": "Client-side mod to disable Forge's \"Incompatible FML Modded Server\" message.",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "https://focamacho.com",
+    "updateUrl": "",
+    "authorList": [
+      "Focamacho"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
