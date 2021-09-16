@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[36,)"
+loaderVersion="[37,)"
 license="MIT"
 [[mods]]
 modId="myserveriscompatible"
@@ -9,3 +9,9 @@ authors="Focamacho"
 description='''
 Client-side mod to disable Forge's "Incompatible FML Modded Server" message.
 '''
+[[dependencies.myserveriscompatible]]
+    modId="forge"
+    mandatory=true
+    versionRange="[37.0.59,)"
+    ordering="NONE"
+    side="BOTH"

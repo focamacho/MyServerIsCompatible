@@ -17,12 +17,12 @@ group = 'com.focamacho'
 version = '1.0'
 
 java {
-    archivesBaseName = 'MyServerIsCompatible-1.16.5'
-    toolchain.languageVersion = JavaLanguageVersion.of(8)
+    archivesBaseName = 'MyServerIsCompatible-1.17.1'
+    toolchain.languageVersion = JavaLanguageVersion.of(16)
 }
 
 minecraft {
-    mappings channel: 'snapshot', version: '20210309-1.16.5'
+    mappings channel: 'official', version: '1.17.1'
 
     runs {
         client {
@@ -78,7 +78,7 @@ mixin {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.16.5-36.2.4'
+    minecraft 'net.minecraftforge:forge:1.17.1-37.0.59'
     annotationProcessor 'org.spongepowered:mixin:0.8:processor'
 }
 
