@@ -1,6 +1,8 @@
 {
   "pack": {
-    "description": "myserveriscompatible resources",
-    "pack_format": 6
+    "description": {
+      "text": "${mod_id} resources"
+    },
+    "pack_format": 15
   }
 }
